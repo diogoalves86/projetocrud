@@ -1,0 +1,4 @@
+* * * * * /usr/bin/php /var/www/html/ProjetoCrud/admin/alertExam.php > /var/www/ProjetoCrud/teste.txt
+
+
+NÃO ESQUECER DE ALTERAR O DIRETÓRIO SEM A PASTA HTML, NO ARQUIVO ALERTEXAM.PHP

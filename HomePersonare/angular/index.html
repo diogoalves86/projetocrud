@@ -1,0 +1,41 @@
+<html ng-app>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script src="http://code.angularjs.org/1.0.1/angular-1.0.1.min.js"></script>
+    <title>Testando o angular</title>
+</head>
+<body>
+
+    <script>
+        function ListaController($scope){
+            $scope.itens = [
+                {
+               'id':'1',
+                'nome':'Diogo'
+                },
+                {
+                    'id':'2',
+                    'nome':'Diogo Alves da Silva'
+                }
+            ];
+        }
+
+    </script>
+
+    <input type="text" ng-model="variavel"/>
+    <p>
+        Olá {{variavel}}
+    </p>
+    <div ng-controller="ListaController">
+        <div ng-repeat="item in itens">
+            <p>
+               Código do cliente: {{item.id}}
+            </p>
+            <p>
+                Nome do cliente: {{item.nome}}
+            </p>
+        </div>
+    </div>
+</body>
+</html>

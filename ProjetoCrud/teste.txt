@@ -1,0 +1,36 @@
+12-05-2014    array(3) {
+  [0]=>
+  array(4) {
+    ["idExam"]=>
+    string(2) "54"
+    ["namePatient"]=>
+    string(11) "Diogo Alves"
+    ["nameDoctor"]=>
+    string(7) "Medico2"
+    ["scheduledExam"]=>
+    string(10) "10-07-2014"
+  }
+  [1]=>
+  array(4) {
+    ["idExam"]=>
+    string(2) "56"
+    ["namePatient"]=>
+    string(16) "Outro Paciente 2"
+    ["nameDoctor"]=>
+    string(7) "Medico2"
+    ["scheduledExam"]=>
+    string(10) "13-07-2014"
+  }
+  [2]=>
+  array(4) {
+    ["idExam"]=>
+    string(2) "55"
+    ["namePatient"]=>
+    string(14) "Outro Paciente"
+    ["nameDoctor"]=>
+    string(7) "Medico5"
+    ["scheduledExam"]=>
+    string(10) "20-08-2014"
+  }
+}
+54/r/nDiogo Alves/r/nMedico2/r/né scheduled56/r/nOutro Paciente 2/r/nMedico2/r/né scheduled55/r/nOutro Paciente/r/nMedico5/r/né scheduled
